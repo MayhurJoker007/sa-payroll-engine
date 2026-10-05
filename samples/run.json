@@ -1,0 +1,33 @@
+{
+  "taxYear": 2026,
+  "employerPaysSdl": true,
+  "employees": [
+    {
+      "employee": {
+        "employeeNumber": "E001",
+        "fullName": "Thabo Nkosi",
+        "dateOfBirth": "1995-04-12",
+        "frequency": 12,
+        "medicalAidMembers": 2
+      },
+      "periods": [
+        { "period": 1, "basicSalary": 32000, "employeeMedicalContribution": 2100, "employeeRetirementContribution": 2400 },
+        { "period": 2, "basicSalary": 32000, "overtime": 1850, "employeeMedicalContribution": 2100, "employeeRetirementContribution": 2400 },
+        { "period": 3, "basicSalary": 32000, "bonus": 32000, "employeeMedicalContribution": 2100, "employeeRetirementContribution": 2400 }
+      ]
+    },
+    {
+      "employee": {
+        "employeeNumber": "E014",
+        "fullName": "Anika van Wyk",
+        "dateOfBirth": "1987-11-30",
+        "frequency": 12,
+        "travelMostlyBusiness": false
+      },
+      "periods": [
+        { "period": 1, "basicSalary": 21500, "commission": 6200, "travelAllowance": 4500 },
+        { "period": 2, "basicSalary": 21500, "commission": 3900, "travelAllowance": 4500 }
+      ]
+    }
+  ]
+}

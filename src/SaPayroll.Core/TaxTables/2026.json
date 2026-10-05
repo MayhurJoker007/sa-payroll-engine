@@ -1,0 +1,19 @@
+{
+  "taxYear": 2026,
+  "description": "1 March 2025 - 28 February 2026",
+  "brackets": [
+    { "from": 0,       "baseTax": 0,      "rate": 0.18 },
+    { "from": 237100,  "baseTax": 42678,  "rate": 0.26 },
+    { "from": 370500,  "baseTax": 77362,  "rate": 0.31 },
+    { "from": 512800,  "baseTax": 121475, "rate": 0.36 },
+    { "from": 673000,  "baseTax": 179147, "rate": 0.39 },
+    { "from": 857900,  "baseTax": 251258, "rate": 0.41 },
+    { "from": 1817000, "baseTax": 644489, "rate": 0.45 }
+  ],
+  "rebates": { "primary": 17235, "secondary": 9444, "tertiary": 3145 },
+  "medicalCredits": { "mainAndFirstDependant": 364, "additionalDependant": 246 },
+  "uif": { "rate": 0.01, "monthlyCeiling": 17712 },
+  "sdl": { "rate": 0.01, "annualPayrollThreshold": 500000 },
+  "retirement": { "deductiblePercent": 0.275, "annualCap": 350000 },
+  "travelAllowanceInclusion": { "standard": 0.80, "mostlyBusiness": 0.20 }
+}
